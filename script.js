@@ -68,11 +68,12 @@ async function get_details() {
        body: JSON.stringify({
          name: user_name,
          avatar: user_pic,
-         createdAt: new Date(data.createdAt).toDateString()
+         createdAt: new Date().toDateString()
        })
       })
-      .then((data) => data.json())
-      .then((user) => console.log(user))
+    //   .then((data) => data.json())
+    //   .then((user) => console.log(user))
+      get_details();
       
   }
   
