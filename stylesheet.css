@@ -1,0 +1,36 @@
+body {
+  background-color: #d3f2ff;
+}
+
+.container {
+  background-color: white;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 106.5px;
+  border-radius: 10px;
+  margin-left: 250px;
+}
+
+.pic {
+  border-radius: 50px;
+  width: 80px;
+  height: 80%;
+  margin-left: 1rem;
+  display: flex;
+}
+
+.info {
+  margin-left: 1rem;
+}
+
+.button {
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+
+.new_user_class {
+  margin-bottom: 2rem;
+}

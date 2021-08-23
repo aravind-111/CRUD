@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/stylesheet.css">
+  </head>
+
+  <body>
+    <input
+      class="new_user_class"
+      oninput="add_username(event)"
+      maxlength="15"
+      placeholder="username"
+      style="margin-left: 300px;"
+    />
+    <input
+      class="new_user_class"
+      oninput="add_avatar(event)"
+      placeholder="avatar"
+    />
+    <button class="new_user_class" onclick="add_user()">Add User</button>
+    
+
+    <section class="user-list"></section>
+    <br></br>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
